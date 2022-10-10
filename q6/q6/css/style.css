@@ -6,26 +6,25 @@ header {
   position: fixed;
 }
 
-.logo a {
+.logo{
+  margin-top: 30px;
   font-size: 24px;
   font-weight: bold;
-  color: #f2ff7b;
 }
 
-ul {
-  display: flex;
+.logo a {
+  color: #f2ff7b;
 }
 
 a{
   text-decoration: none;
-  display: block;
 }
 
 li a{
   color: #ffffff;
 }
 
-nav li{
+.nav li{
   list-style: none;
   padding: 30px;
 }
