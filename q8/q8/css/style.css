@@ -12,3 +12,11 @@
   background: url(../../image/coffee-background.jpg)no-repeat;
 }
 
+.img-cover{
+  background: url(../../image/coffee-background.jpg)no-repeat center/cover;
+}
+
+.img-contain{
+  background: url(../../image/coffee-background.jpg)no-repeat center/contain;
+}
+
