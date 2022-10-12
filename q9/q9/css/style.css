@@ -39,3 +39,11 @@
   }
 
 }
+
+.span{
+  animation:4s linear infinite rotation ;
+}
+@keyframes rotation{
+  0%{ transform:rotate(0);}
+  100%{ transform:rotate(360deg); }
+}
