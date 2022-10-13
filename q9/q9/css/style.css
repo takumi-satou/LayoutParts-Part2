@@ -63,3 +63,24 @@
 .hover-spin:hover{
   transform:rotate(360deg);
 }
+
+.hover-up:hover{
+  transform: translateY(-20%);
+}
+
+.hover-right:hover{
+  transform: translateX(20%);
+}
+
+.hover-height:hover{
+  height: 300px;
+}
+
+.hover-width:hover{
+  width: 500px;
+}
+
+.hover-border:hover{
+  border: 10px #00ffe5 solid;
+  box-sizing: border-box;
+}
