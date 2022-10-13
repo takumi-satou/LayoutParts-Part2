@@ -3,7 +3,7 @@
 /* カード内の画像は以下のURLを使用して下さい */
 /* https://picsum.photos/id/1005/200/300 */
 
-.block{
+.green-block{
   width: 200px;
   height: 200px;
   background: #76ff826b;
@@ -46,4 +46,16 @@
 @keyframes rotation{
   0%{ transform:rotate(0);}
   100%{ transform:rotate(360deg); }
+}
+
+.blue-block{
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  background:#331aefd0 ;
+  cursor: pointer;
+}
+
+.blue-block:hover{
+  background:#ff27e2c9 ;
 }
