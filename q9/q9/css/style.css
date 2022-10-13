@@ -53,9 +53,13 @@
   height: 200px;
   margin: 0 auto;
   background:#331aefd0 ;
-  cursor: pointer;
+  transition: 0.5s;
 }
 
-.blue-block:hover{
+.hover-color:hover{
   background:#ff27e2c9 ;
+}
+
+.hover-spin:hover{
+  transform:rotate(360deg);
 }
