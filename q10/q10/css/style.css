@@ -1,1 +1,30 @@
 @charset "UTF-8";
+
+.flex-button{
+  display: flex;
+  justify-content: center;
+}
+
+.flat{
+  border-radius: 10px;
+  padding: 0 15px 0 15px;
+  line-height: 50px;
+  margin-right: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button-red{
+  color: #fff;
+  background:#fd0f0fd9 ;
+}
+
+.button-blue{
+  color: #fff;
+  background: #170ffdd9;
+}
+
+.button-green{
+  color: #000;
+  background: #0ffd0fd9;
+}
