@@ -28,3 +28,7 @@
   color: #000;
   background: #0ffd0fd9;
 }
+
+.flat:last-child{
+  margin-right: 0;
+}
