@@ -73,3 +73,34 @@
   box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
   transform: translateY(5px);
 }
+
+.hover1{
+  color: #67c5ff;
+  background:#fff ;
+  border: 4px double #67c5ff;
+}
+
+.hover1:hover{
+  background: #fffbef;
+}
+
+.hover2{
+  background: #fff;
+  color: #67c5ff;
+  border: 4px dotted #75caff;
+}
+
+.hover2:hover{
+  border: 4px dashed #75caff;
+}
+
+.hover3{
+  color: #0079a5f8;
+  background: #d0edfff8;
+  border: 4px dashed #67c5ff;
+}
+
+.hover3:hover{
+  color: #67c5ff;
+  background: #ffffff;
+}
