@@ -108,3 +108,39 @@
     transform: rotate(360deg);
   }
 }
+
+.card-list{
+  display: flex;
+}
+
+.card-item{
+  width: 300px;
+  padding: 20px;
+  transition: 0.5s;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-left: 0;
+}
+
+.img{
+  background: url(https://picsum.photos/id/1005/200/300)no-repeat center/cover;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.card-item:hover{
+  box-shadow: 0px 0px 10px 3px #424242d0;
+  z-index: 1;
+}
+
+.card-item > p{
+  margin-top: 20px;
+}
+
+.card-item:first-child{
+  border-left: 1px solid #000000;
+}
+
+
