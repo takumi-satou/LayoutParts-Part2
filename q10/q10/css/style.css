@@ -70,6 +70,6 @@
 }
 
 .push-red:active,.push-blue:active,.push-green:active{
-  box-shadow: none;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
   transform: translateY(5px);
 }
