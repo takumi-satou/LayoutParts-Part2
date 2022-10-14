@@ -50,3 +50,26 @@
   background: #0ffd0fd9;
   box-shadow: 0 5px 0 0 rgba(5,63,5,0.851);
 }
+
+.push-red{
+  color: #fff;
+  background: #fd0f0fd9;
+  box-shadow: 0 5px 0 0 rgba(63,5,5,0.851);
+}
+
+.push-blue{
+  color: #fff;
+  background: #170ffdd9;
+  box-shadow: 0 5px 0 0 rgba(5,13,63,0.851);
+}
+
+.push-green{
+  color: #000;
+  background: #0ffd0fd9;
+  box-shadow: 0 5px 0 0 rgba(5,63,5,0.851);
+}
+
+.push-red:active,.push-blue:active,.push-green:active{
+  box-shadow: none;
+  transform: translateY(5px);
+}
